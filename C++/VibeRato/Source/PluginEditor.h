@@ -33,8 +33,11 @@ private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
 	Image cachedImage_depthKnobFilmRoll_png_1;
+	Image cachedImage_RateKnobFilmRoll_png_1;
+	Image cachedImage_BaseModel_png_1;
     NewProjectAudioProcessor& processor;
 	ScopedPointer<Slider> Dknob;
+	ScopedPointer<Slider> Rknob;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NewProjectAudioProcessorEditor)
 };
