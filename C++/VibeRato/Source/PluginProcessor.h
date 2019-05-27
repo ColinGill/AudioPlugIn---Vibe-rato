@@ -55,8 +55,29 @@ public:
     //==============================================================================
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
+	
+	void setRateHz(float hz) { rate_Hz = hz; };
+	void setDepth(float d) { depth_ = d; };
+	
+	void setWaveform(bool wf) {  waveformSelect = wf; };
+	void enablePedal(bool ep) { pedalEnabled = ep; };
+	
+	float getRateHz() { return rate_Hz; };
+	float getDepth() { return depth_; };
+	
+	bool getFootSwitchState(){ return pedalEnabled; };
+	bool getWaveform() { return waveformSelect; };
+	
 
 private:
-    //==============================================================================
+    //=============================================================================//
+	float rate_Hz = 0.5, depth_ = 1.0, previousRate, previousSample;
+	float scaledHz, scaledDepth;
+	bool pedalEnabled = false;
+	bool waveformSelect = 0;
+	bool holdSample = false;
+	float scaleHz(float hz) { return hz *20; };
+	AudioParameterFloat* RateHz;
+	
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NewProjectAudioProcessor)
 };

@@ -10,7 +10,7 @@
 
 #include "PluginProcessor.h"
 #include "PluginEditor.h"
-
+unsigned long n =0;
 
 //==============================================================================
 NewProjectAudioProcessor::NewProjectAudioProcessor()
@@ -25,6 +25,9 @@ NewProjectAudioProcessor::NewProjectAudioProcessor()
                        )
 #endif
 {
+
+	addParameter(RateHz = new AudioParameterFloat(juce::String("rate"), juce::String("rate"), 0.0f, 1.0f, 0.6f));
+	
 }
 
 NewProjectAudioProcessor::~NewProjectAudioProcessor()
@@ -132,26 +135,75 @@ bool NewProjectAudioProcessor::isBusesLayoutSupported (const BusesLayout& layout
 
 void NewProjectAudioProcessor::processBlock (AudioSampleBuffer& buffer, MidiBuffer& midiMessages)
 {
-    ScopedNoDenormals noDenormals;
+	
     const int totalNumInputChannels  = getTotalNumInputChannels();
     const int totalNumOutputChannels = getTotalNumOutputChannels();
 
-    // In case we have more outputs than inputs, this code clears any output
-    // channels that didn't contain input data, (because these aren't
-    // guaranteed to be empty - they may contain garbage).
-    // This is here to avoid people getting screaming feedback
-    // when they first compile a plugin, but obviously you don't need to keep
-    // this code if your algorithm always overwrites all the output channels.
+	previousRate = scaledHz;	
+	scaledHz = scaleHz(RateHz->get() + 0.01);
+	scaledDepth = depth_;
+
+	if (previousRate != scaledHz)
+	{
+		n = n*(previousRate / scaledHz);	
+	}
+
+	if (RateHz->get() == 0)
+	{
+		holdSample = true;
+		scaledHz = scaledHz + 0.01;
+	}
+	else
+	{
+		holdSample = false;
+	}
+
     for (int i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
         buffer.clear (i, 0, buffer.getNumSamples());
 
     // This is the place where you'd normally do the guts of your plugin's
     // audio processing...
-    for (int channel = 0; channel < totalNumInputChannels; ++channel)
-    {
-        float* channelData = buffer.getWritePointer (channel);
+	if (pedalEnabled == true)
+	{
 
-        // ..do something to the data...
+		for (int i = 0; i <buffer.getNumSamples(); i++)
+		{
+			for (int channel = 0; channel < totalNumInputChannels; ++channel)
+			{
+				float* channelData = buffer.getWritePointer(channel);
+
+				if (n >= getSampleRate() / scaledHz)
+				{
+					n = 0;
+				}
+
+				
+				else
+				{
+					switch (waveformSelect)
+					{
+					case 0:
+
+						channelData[i] = (scaledDepth*((0.5*(cos(((scaledHz) / getSampleRate()) * n * 2 * float_Pi))) + 0.5) * channelData[i]) + ((1 - scaledDepth)*channelData[i]);
+						previousSample = channelData[i];
+						break;
+
+					case 1:
+						channelData[i] = (scaledDepth * ((((0.5*asin(cos((scaledHz / getSampleRate())*n * 2 * float_Pi))) / (0.5 * float_Pi)) + 0.5) * channelData[i])) + ((0.990000001 - scaledDepth)*channelData[i]);
+						previousSample = channelData[i];
+						break;
+					}
+				}
+		
+				
+			}
+
+			if (holdSample == false)
+			{	
+				n++;
+			}
+			
+		}	
     }
 }
 
