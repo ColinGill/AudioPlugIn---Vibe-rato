@@ -13,7 +13,7 @@ class FilmStripSlider
 {
 	public:
 		FilmStripSlider (Image *_knobStrip);
-		void drawFrame (Graphics &g, int x, int y, int width, int height, Slider &slider);
+		void drawFrame (Graphics &g, int x, int y, int width, int height, Slider &slider , double position);
 		Image *knobStrip;
 
 	private:

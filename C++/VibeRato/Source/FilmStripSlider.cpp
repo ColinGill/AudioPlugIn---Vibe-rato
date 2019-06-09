@@ -26,10 +26,10 @@ FilmStripSlider::FilmStripSlider (Image *_knobStrip) : knobStrip(_knobStrip)
 }
 
 
-void FilmStripSlider::drawFrame (Graphics &g, int x, int y, int width, int height, Slider &slider)
+void FilmStripSlider::drawFrame (Graphics &g, int x, int y, int width, int height, Slider &slider , double position)
 {
 	const double div	= slider.getMaximum() / frameCount;
-	double pos			= (int)(slider.getValue()/ div);
+	double pos			= (int)(position / div);// (int)(slider.getValue()/ div);
 
 	if (pos > 0)
 		pos = pos - 1;
