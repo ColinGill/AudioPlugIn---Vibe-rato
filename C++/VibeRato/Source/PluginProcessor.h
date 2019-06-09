@@ -56,14 +56,14 @@ public:
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 	
-	void setRateHz(float hz) { rate_Hz = hz; };
-	void setDepth(float d) { depth_ = d; };
+	void setRateHz(float hz) { *RateHz = hz; };
+	void setDepth(float d) { *Depth = d; };
 	
 	void setWaveform(bool wf) {  waveformSelect = wf; };
 	void enablePedal(bool ep) { pedalEnabled = ep; };
 	
-	float getRateHz() { return rate_Hz; };
-	float getDepth() { return depth_; };
+	float getRateHz() { return *RateHz; };
+	float getDepth() { return *Depth; };
 	
 	bool getFootSwitchState(){ return pedalEnabled; };
 	bool getWaveform() { return waveformSelect; };
@@ -71,13 +71,15 @@ public:
 
 private:
     //=============================================================================//
-	float rate_Hz = 0.5, depth_ = 1.0, previousRate, previousSample;
-	float scaledHz, scaledDepth;
+	unsigned long n = 0;
+	float rate_Hz = 0.5, depth_ = 1.0, previousRate, previousSample, offset = 0.5;
+	float scaledHz = 12.0f, scaledDepth;
 	bool pedalEnabled = false;
 	bool waveformSelect = 0;
-	bool holdSample = false;
+	bool pauseSine = false;
 	float scaleHz(float hz) { return hz *20; };
 	AudioParameterFloat* RateHz;
+	AudioParameterFloat* Depth;
 	
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (NewProjectAudioProcessor)
 };
