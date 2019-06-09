@@ -22,8 +22,6 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
 	cachedImage_BaseModel_png_1 = ImageCache::getFromMemory(croppedPedal_png2, croppedPedal_png2Size);
 	cachedImage_depthKnobFilmRoll_png_1 = ImageCache::getFromMemory(depthKnobFilmRoll_png, depthKnobFilmRoll_pngSize);
 	cachedImage_RateKnobFilmRoll_png_1 = ImageCache::getFromMemory(rateKnobFilmRoll_png, rateKnobFilmRoll_pngSize);
-	//RateHz = new AudioParameterFloat(juce::String("rate"), juce::String("rate"), 0.0f, 1.0f, 0.6f);
-	//Depth = new AudioParameterFloat(juce::String("depth"), juce::String("depth"), 0.0f, 1.0f, 1.0f);
 
 	addAndMakeVisible(OnOffSwitch = new ImageButton("onoffswitch"));
 	OnOffSwitch->addListener(this);
@@ -54,6 +52,7 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
 	Rknob->setSliderStyle(Slider::RotaryHorizontalVerticalDrag);
 	Rknob->setTextBoxStyle(Slider::TextBoxLeft, false, 0, 0);
 	Rknob->addListener(this);
+	previousRate = processor.getRateHz();
 	Rknob->setValue(processor.getRateHz());
 	Rknob->setAlpha(0);
 
@@ -64,13 +63,15 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
 	Dknob->setTextBoxStyle(Slider::TextBoxLeft, false, 0, 0);
 	Dknob->addListener(this);
 	Dknob->setAlpha(0);
+	previousDepth = processor.getDepth();
 	Dknob->setValue(processor.getDepth());
+	
 
 	footSwitchPressed = processor.getFootSwitchState();
 	toggleSwitchPressed = processor.getWaveform();
     setSize (318, 455);
 	repaintFlag = true;
-	
+	startTimer(10);
 }
 
 NewProjectAudioProcessorEditor::~NewProjectAudioProcessorEditor()
@@ -93,6 +94,7 @@ void NewProjectAudioProcessorEditor::paint (Graphics& g)
     g.setColour (Colours::white);
     g.setFont (15.0f);
 	g.drawImage(cachedImage_BaseModel_png_1, 0,0, cachedImage_BaseModel_png_1.getWidth(), cachedImage_BaseModel_png_1.getHeight(),0, 0, cachedImage_BaseModel_png_1.getWidth(), cachedImage_BaseModel_png_1.getHeight(), false);
+	
 	if (repaintFlag == true) {
 
 		if (footSwitchPressed == true)
@@ -149,8 +151,9 @@ void NewProjectAudioProcessorEditor::paint (Graphics& g)
 		}	
 	}
 	
-	fssDepth.drawFrame(g, 0, 26, 208, 110, *Dknob);
-	fssRate.drawFrame(g, 0, 24, 456, 110, *Rknob);
+	fssDepth.drawFrame(g, 0, 26, 208, 110, *Dknob , processor.getDepth());
+	fssRate.drawFrame(g, 0, 24, 456, 110, *Rknob , processor.getRateHz());
+	
 	
 }
 
@@ -194,6 +197,20 @@ void NewProjectAudioProcessorEditor::buttonClicked(Button* buttonThatWasClicked)
 		processor.setWaveform(toggleSwitchPressed);
 	}
 
+}
+
+void NewProjectAudioProcessorEditor::timerCallback()
+{
+	if (previousRate != processor.getRateHz())
+	{
+		repaint();
+		previousRate = processor.getRateHz();
+	}
+	else if (previousDepth != processor.getDepth())
+	{
+		repaint();
+		previousDepth = processor.getDepth();
+	}
 }
 
 

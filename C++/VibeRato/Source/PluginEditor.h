@@ -19,7 +19,8 @@
 */
 class NewProjectAudioProcessorEditor  : public AudioProcessorEditor,
 										public Slider::Listener,
-										public Button::Listener
+										public Button::Listener,
+										public Timer
 {
 public:
     NewProjectAudioProcessorEditor (NewProjectAudioProcessor&);
@@ -30,12 +31,13 @@ public:
     void resized() override;
 	void sliderValueChanged(Slider* sliderThatWasMoved) override;
 	void buttonClicked(Button* buttonThatWasClicked) override;
+	void timerCallback() override;
 	
 private:
     // This reference is provided as a quick way for your editor to
     // access the processor object that created it.
 	//void setRate(float Hz) { rateHz = Hz; };
-
+	float previousRate = 0, previousDepth = 0;
 	bool footSwitchPressed = false;
 	bool toggleSwitchPressed = false;
 	bool waveform = 0, repaintFlag = false;
