@@ -52,6 +52,7 @@ C++/VibeRato/JuceLibraryCode/include_juce_audio_devices.cpp
 C++/VibeRato/JuceLibraryCode/include_juce_audio_basics.mm
 C++/VibeRato/JuceLibraryCode/include_juce_audio_basics.cpp
 C++/VibeRato/JuceLibraryCode/AppConfig.h
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/VibeRato.dll
 C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/Vibe-rato_VST.write.1u.tlog
 C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/Vibe-rato_VST.lastbuildstate
 C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/rc.write.1.tlog
