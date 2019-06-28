@@ -1,0 +1,182 @@
+
+Gui_Images/Knob - Depth - All Positions/Thumbs.db
+C++/VibeRato/Source/gui.h
+C++/VibeRato/Source/gui.cpp
+C++/VibeRato/NewProject.jucer
+C++/VibeRato/JuceLibraryCode/ReadMe.txt
+C++/VibeRato/JuceLibraryCode/JuceHeader.h
+C++/VibeRato/JuceLibraryCode/include_juce_video.mm
+C++/VibeRato/JuceLibraryCode/include_juce_video.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_opengl.mm
+C++/VibeRato/JuceLibraryCode/include_juce_opengl.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_gui_extra.mm
+C++/VibeRato/JuceLibraryCode/include_juce_gui_extra.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_gui_basics.mm
+C++/VibeRato/JuceLibraryCode/include_juce_gui_basics.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_graphics.mm
+C++/VibeRato/JuceLibraryCode/include_juce_graphics.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_events.mm
+C++/VibeRato/JuceLibraryCode/include_juce_events.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_data_structures.mm
+C++/VibeRato/JuceLibraryCode/include_juce_data_structures.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_cryptography.mm
+C++/VibeRato/JuceLibraryCode/include_juce_cryptography.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_core.mm
+C++/VibeRato/JuceLibraryCode/include_juce_core.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_utils.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_utils.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_processors.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_processors.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS_utils.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS_4.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS_3.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS_2.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS_1.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_RTAS.r
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_AUv3.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_AU.r
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_AAX.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_plugin_client_AAX.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_formats.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_formats.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_devices.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_devices.cpp
+C++/VibeRato/JuceLibraryCode/include_juce_audio_basics.mm
+C++/VibeRato/JuceLibraryCode/include_juce_audio_basics.cpp
+C++/VibeRato/JuceLibraryCode/AppConfig.h
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/VibeRato.dll
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/Vibe-rato_VST.write.1u.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/Vibe-rato_VST.lastbuildstate
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/rc.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/rc.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/rc.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/link.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/link.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/link.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/CL.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/CL.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.tlog/CL.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/Vibe-rato_VST.log
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/vc141.pdb
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/resources.res
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/rc.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/rc.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/rc.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/NewProject_VST.write.1u.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/NewProject_VST.lastbuildstate
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/link.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/link.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/link.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/CL.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/CL.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.tlog/CL.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject_VST.log
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject.pdb
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject.lib
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject.ilk
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/NewProject.exp
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/VST/include_juce_audio_plugin_client_VST2.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/vc141.pdb
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/resources.res
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProject_StandalonePlugin.log
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProject.pdb
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProject.ilk
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProject.exe
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/rc.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/rc.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/rc.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/NewProject_StandalonePlugin.lastbuildstate
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/link.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/link.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/link.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/CL.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/CL.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/NewProje.530FA8BB.tlog/CL.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Standalone Plugin/include_juce_audio_plugin_client_Standalone.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rato_SharedCode.pdb
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rato_SharedCode.log
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/Vibe-rato_SharedCode.lastbuildstate
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/rc.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/rc.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/rc.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/Lib.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/Lib-link-cvtres.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/Lib-link-cvtres.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/CL.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/CL.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/Vibe-rat.66EBA632.tlog/CL.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/resources.res
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/PluginProcessor.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/PluginEditor.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProject_SharedCode.pdb
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProject_SharedCode.log
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProject.lib
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/rc.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/rc.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/rc.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/NewProject_SharedCode.lastbuildstate
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/Lib.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/Lib-link-cvtres.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/Lib-link-cvtres.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/CL.write.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/CL.read.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/NewProje.66EBA632.tlog/CL.command.1.tlog
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_video.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_opengl.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_gui_extra.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_gui_basics.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_graphics.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_events.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_data_structures.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_cryptography.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_core.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_audio_utils.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_audio_processors.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_audio_plugin_client_utils.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_audio_formats.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_audio_devices.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/include_juce_audio_basics.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/gui.obj
+C++/VibeRato/Builds/VisualStudio2017/x64/Debug/Shared Code/FilmStripSlider.obj
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato_VST.vcxproj.filters
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato_VST.vcxproj
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato_StandalonePlugin.vcxproj.filters
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato_StandalonePlugin.vcxproj
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato_SharedCode.vcxproj.filters
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato_SharedCode.vcxproj
+C++/VibeRato/Builds/VisualStudio2017/Vibe-rato.sln
+C++/VibeRato/Builds/VisualStudio2017/resources.rc
+C++/VibeRato/Builds/VisualStudio2017/NewProject_VST.vcxproj.filters
+C++/VibeRato/Builds/VisualStudio2017/NewProject_VST.vcxproj
+C++/VibeRato/Builds/VisualStudio2017/NewProject_StandalonePlugin.vcxproj.filters
+C++/VibeRato/Builds/VisualStudio2017/NewProject_StandalonePlugin.vcxproj
+C++/VibeRato/Builds/VisualStudio2017/NewProject_SharedCode.vcxproj.filters
+C++/VibeRato/Builds/VisualStudio2017/NewProject_SharedCode.vcxproj
+C++/VibeRato/Builds/VisualStudio2017/NewProject.sln
+C++/VibeRato/Builds/VisualStudio2017/.vs/Vibe-rato/v15/Solution.VC.db-wal
+C++/VibeRato/Builds/VisualStudio2017/.vs/Vibe-rato/v15/Solution.VC.db-shm
+C++/VibeRato/Builds/VisualStudio2017/.vs/Vibe-rato/v15/Solution.VC.db
+C++/VibeRato/Builds/VisualStudio2017/.vs/Vibe-rato/v15/ipch/AutoPCH/24b9f4268ae13486/PLUGINEDITOR.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/Vibe-rato/v15/Browse.VC.db
+C++/VibeRato/Builds/VisualStudio2017/.vs/Vibe-rato/v15/.suo
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/Solution.VC.db
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/ea6ad9a8fa25d235/FILMSTRIPSLIDER.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/e7c573c48febb4fd/PLUGINPROCESSOR.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/d41a8891753370a6/INCLUDE_JUCE_EVENTS.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/a4359d2eb6101d7d/IMAGES.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/68070350a3025794/INCLUDE_JUCE_GUI_BASICS.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/665e62898a18c73a/INCLUDE_JUCE_CORE.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/5e0f88f17cbb7cb2/PLUGINEDITOR.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/52aa7c89408b84ee/IMAGES.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/ipch/AutoPCH/333193680f316f1/GUI.ipch
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/Browse.VC.db
+C++/VibeRato/Builds/VisualStudio2017/.vs/NewProject/v15/.suo
+Gui_Images/Knob - Depth - All Positions/Thumbs.db
